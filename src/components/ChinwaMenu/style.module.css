@@ -1,0 +1,12 @@
+.menuBg {
+    background-image: url('../../img/chinwa-bg-pattern-small.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+    overflow: hidden;
+    position: relative;
+}
+
+

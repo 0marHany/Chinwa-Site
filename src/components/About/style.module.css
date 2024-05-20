@@ -1,0 +1,37 @@
+
+
+.bgAbout {
+    background-image: url('../../img/chinwa-bg-about.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+.pacifico_regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+    .bgAbout {
+        height: auto;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .bgAbout{
+        height: auto;
+    }
+} */

@@ -1,0 +1,34 @@
+.contactBG {
+    background-image: url('../../img/chinwa-bg-contact.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.darkbg{
+    background-image: url('../../img/chinwa-bg-pattern-small.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.iconRounde {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textgray{
+    color: rgb(167, 165, 165);
+}
+.btn:hover{
+    color: white !important;
+    
+}
+::placeholder {
+    color: white !important;
+    font-weight: bold;
+    opacity: 1; /* Firefox */
+  }

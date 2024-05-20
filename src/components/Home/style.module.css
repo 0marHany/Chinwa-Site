@@ -1,0 +1,40 @@
+.bg_home {
+    background-image: url('../../img/images\ task1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.bg_order {
+    background-image: url('../../img/Chinwa-Order-Now.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.move {
+    transform: translateX(100px) translateY(100px);
+}
+
+.iconRounde {
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonColor {
+    background-color: #cf2830 ;
+    color: white;
+}
+
+.buttonColor:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
